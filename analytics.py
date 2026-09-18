@@ -541,7 +541,14 @@ elif st.session_state["active_tab"] == "Resume":
     st.markdown("---")
     st.markdown("### Experience")
 
-    st.markdown("**Data Science Officer** · Royal Life Saving Society · *Sep 2024 – Present*")
+    st.markdown("**Senior Medical Informatics Analyst** · Blue Shield of California · *Jun 2026 – Present*")
+    st.markdown("""
+- Analyze large-scale healthcare claims and administrative datasets using complex SQL queries and SAS to support pricing, trend analysis, and financial reporting.
+- Investigate data questions and discrepancies, validate results, and translate findings into documented analytical outputs.
+- Collaborate with actuarial and business stakeholders to clarify requirements and deliver recurring analyses and reporting.
+""")
+
+    st.markdown("**Data Science Officer** · Royal Life Saving Society · *Sep 2024 – May 2026*")
     st.markdown("""
 - Lead end-to-end analytics across multiple projects, translating complex, large-scale datasets into actionable insights for strategy and decision-making.
 - Design and implement automated data workflows, improving reporting efficiency by 30% and ensuring reproducibility.
