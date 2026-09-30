@@ -293,7 +293,7 @@ st.markdown(f"""
         <h1 class="hero-name">Mackenzie Haller</h1>
         <p class="hero-title">Data Scientist &amp; Analytics Professional &nbsp;·&nbsp; SQL &nbsp;·&nbsp; Python &nbsp;·&nbsp; Power BI &nbsp;·&nbsp; Machine Learning &amp; AI</p>
         <p class="hero-bio">
-            Data scientist and analytics professional with 6+ years of experience across public health, tech, and utilities.
+            Data scientist and analytics professional with 6+ years of experience across insurance, tech, and utilities.
             I build end-to-end analytics — automated data pipelines, predictive models, and production dashboards — that turn
             complex, real-world data into decisions. Comfortable owning a project from raw data to a stakeholder-ready result.
         </p>
@@ -313,7 +313,7 @@ with col1:
 with col2:
     st.markdown('<div class="stat-box"><span class="stat-number">M.S.</span><span class="stat-label">Master of Data Science (Honors) · UNSW</span></div>', unsafe_allow_html=True)
 with col3:
-    st.markdown('<div class="stat-box"><span class="stat-number">3</span><span class="stat-label">Industries: Public Health · Tech · Utilities</span></div>', unsafe_allow_html=True)
+    st.markdown('<div class="stat-box"><span class="stat-number">3</span><span class="stat-label">Industries: Insurance · Tech · Utilities</span></div>', unsafe_allow_html=True)
 
 st.markdown('<hr class="divider">', unsafe_allow_html=True)
 
@@ -536,14 +536,14 @@ elif st.session_state["active_tab"] == "Resume":
 
     st.markdown("---")
     st.markdown("### Profile")
-    st.markdown("Data scientist and analytics professional with experience across strategy, analytics, and technology spanning public health, semiconductor manufacturing, and utilities. Proven ability to turn complex, real-world data into actionable insights that inform research, strategy, and operational decisions. Experienced in end-to-end analytics including study design, statistical analysis, predictive modeling, and visualization. Skilled in framing ambiguous business questions, defining hypotheses, and developing reproducible analytical pipelines. Passionate about driving decisions through data and close collaboration with cross-functional teams.")
+    st.markdown("Data scientist and analytics professional with experience across strategy, analytics, and technology spanning insurance, semiconductor manufacturing, and utilities. Proven ability to turn complex, real-world data into actionable insights that inform strategy and operational decisions. Experienced in end-to-end analytics including study design, statistical analysis, predictive modeling, and visualization. Skilled in framing ambiguous business questions, defining hypotheses, and developing reproducible analytical pipelines. Passionate about driving decisions through data and close collaboration with cross-functional teams.")
 
     st.markdown("---")
     st.markdown("### Experience")
 
     st.markdown("**Senior Medical Informatics Analyst** · Blue Shield of California · *Jun 2026 – Present*")
     st.markdown("""
-- Analyze large-scale healthcare claims and administrative datasets using complex SQL queries and SAS to support pricing, trend analysis, and financial reporting.
+- Analyze large-scale claims and administrative datasets using complex SQL queries and SAS to support pricing, trend analysis, and financial reporting.
 - Investigate data questions and discrepancies, validate results, and translate findings into documented analytical outputs.
 - Collaborate with actuarial and business stakeholders to clarify requirements and deliver recurring analyses and reporting.
 """)
@@ -557,7 +557,7 @@ elif st.session_state["active_tab"] == "Resume":
 - Create dashboards and reporting tools (Power BI, R Shiny, Python) to support internal decision-making and external stakeholder communication.
 - Conduct data cleaning, validation, and integration across large, multi-source datasets to ensure analytical quality.
 - Partner with research and policy teams to define study hypotheses, design analysis, and interpret results.
-- Communicate findings to executives, media, and public stakeholders, influencing public health initiatives.
+- Communicate findings to executives, media, and public stakeholders, influencing national safety initiatives.
 - Train team members in SQL and R, improving data literacy and analytical capabilities across the organization.
 """)
 
@@ -599,7 +599,7 @@ Focus: Statistical modeling, machine learning, and applied predictive analytics 
     st.markdown("""
 | Area | Skills |
 |---|---|
-| Programming & Data Analysis | SQL, Python, R, SAS, Excel; healthcare analytics; EHR and ICD-coded data |
+| Programming & Data Analysis | SQL, Python, R, SAS, Excel; large-scale claims and operational data |
 | Data Visualization | Power BI (DAX), Tableau, Spotfire, R Shiny, Plotly, Streamlit |
 | Analytics & Modeling | Machine learning, regression/classification, clustering, predictive modeling, KPI development, cost analysis |
 | Data Engineering & Automation | ETL pipelines, database design, Azure workflows, Git, workflow automation, AI-assisted analytics |
